@@ -1,4 +1,3 @@
-// массив карточек загружаемых в начале
 export const initialCards = [
   {
       name: 'Архыз',
