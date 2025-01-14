@@ -99,7 +99,6 @@ function closeByEsc (evt){
 }
 window.addEventListener('keydown', closeByEsc);
 
-// закрыть попапы с формой по оверлею
 const popupOverlay = Array.from(document.querySelectorAll('.popup'));
 popupOverlay.forEach(elem => {
   elem.addEventListener('click', (evt) => {
