@@ -14,7 +14,7 @@ export default class Card {
     return cardElement;
   }
 
-  generateCard() { // наполняем карточку контентом
+  generateCard() { // заполняем карточку
     this._element = this._getTemplate();
     this._setEventListeners();
     this._element.querySelector('.element__cover').src = this._link; // передаём значение src для изображения
@@ -23,7 +23,7 @@ export default class Card {
     return this._element;
   }
 
-  _setEventListeners() { //вешаем слушатели на карточку
+  _setEventListeners() {
     this._element.querySelector('.element__like-button').addEventListener('click', () => this._likeCard());
     this._element.querySelector('.element__remove').addEventListener('click', () => this._deleteCard());
     this._element.querySelector('.element__cover').addEventListener('click', () => this._openPopupPrewiev());
