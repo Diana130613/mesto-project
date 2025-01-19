@@ -20,7 +20,7 @@ export const initialCards = [
       link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kholmogorsky-rayon.jpg'
   },
   {
-      name: 'Байкал',
-      link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/baikal.jpg'
+      name: 'Ставрополь',
+      link: 'https://pic.rutubelist.ru/video/20/bd/20bda961c85ccda5520188e4c6b3f3c5.jpg'
   }
 ];
