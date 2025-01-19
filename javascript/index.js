@@ -1,6 +1,6 @@
 import FormValidator from './FormValidator.js';
 import Card from './Card.js';
-import {initialCards} from './cards.js'; //импортируем массив карточек
+import {initialCards} from './cards.js';
 
 const buttonEdit = document.querySelector('.profile__button_edit');
 const buttonClose = document.querySelector('.popup__close-button');
